@@ -56,3 +56,5 @@ package-lock.json
 
 doc/install.lock
 /factory/
+docker-compose.yml
+Dockerfile
