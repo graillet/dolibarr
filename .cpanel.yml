@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/llynenet/public_html/valerys/dolibarr
-    - /bin/cp -R git/dolibarr $DEPLOYPATH
+    - /bin/cp -a * $DEPLOYPATH
