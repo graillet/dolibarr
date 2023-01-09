@@ -82,4 +82,4 @@ if ($res == -1) {
 	exit();
 }
 
-print json_encode($res);
+print json_encode($res, JSON_PARTIAL_OUTPUT_ON_ERROR);
